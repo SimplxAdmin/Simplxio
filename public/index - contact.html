@@ -222,7 +222,15 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 justify-content-center wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
 					<h2 class="title">About Us</h2>
-					<p class="text">We’re an Australian startup, established early 2023. Since then, we’ve been developing our MVP (minimum viable product) and we’ve made tremendous progress, but unfortunately Simplx is not yet available to try. <br><br><p class="text">
+					<p class="text">We’re an Australian startup, established early 2023. Since then, we’ve been developing our MVP (minimum viable product) and we’ve made tremendous progress, but unfortunately Simplx is not yet available to try. Please get in touch using the form below to register your interest.<br><br>
+					</p>
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-two mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <h3 class="contact-title">Register Your Interest</h3>
+                        <p class="text">
 						We want to get it out there as soon as possible, so we’re on the lookout for property professionals in the following disciplines to help us shape Simplx:<br><br>
 							<ul>
 								<li>- Property developers</li>
@@ -232,10 +240,48 @@
 							</ul>
 						</p>
                         <ul class="contact-info">
-							<p class="text"><br>You can reach us at:</p>
                             <li><i class="lni-envelope"></i> admin@simplx.io</li>
                         </ul>
-					</p>
+                    </div> <!-- contact two -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                        <form  id="contact-form" action="assets/contact.php" method="post">
+                            <div class="form-input mt-15">
+                                <label>Name</label>
+                                <div class="input-items default">
+                                    <input type="text" placeholder="Name" name="name">
+                                    <i class="lni-user"></i>
+                                </div>
+                            </div> <!-- form input -->
+							<div class="form-input mt-15">
+                                <label>Company</label>
+                                <div class="input-items default">
+                                    <input type="text" placeholder="Company" name="company">
+                                    <i class="lni-network"></i>
+                                </div>
+                            </div> <!-- form input -->
+                            <div class="form-input mt-15">
+                                <label>Email</label>
+                                <div class="input-items default">
+                                    <input type="email" placeholder="Email" name="email">
+                                    <i class="lni-envelope"></i>
+                                </div>
+                            </div> <!-- form input -->
+                            <div class="form-input mt-15">
+                                <label>Message</label>
+                                <div class="input-items default">
+                                    <textarea placeholder="Message" name="message"></textarea>
+                                    <i class="lni-pencil-alt"></i>
+                                </div>
+                            </div> <!-- form input -->
+                            <p class="form-message"></p>
+                            <div class="form-input rounded-buttons mt-20">
+                                <button type="submit" class="main-btn rounded-three">Submit</button>
+                            </div> <!-- form input -->
+							<script src="submit-form.js" defer></script>
+                        </form>
+                    </div> <!-- contact form -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
